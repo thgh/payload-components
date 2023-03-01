@@ -1,0 +1,7 @@
+.file-field.file-field--inline {
+  margin: 0 0 1em;
+}
+.file-field--inline .file-field__file-selected,
+.file-field--inline .file-field__drop-zone {
+  padding: 2rem;
+}

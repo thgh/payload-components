@@ -1,0 +1,23 @@
+.media-card {
+  display: flex;
+  text-decoration: none;
+  box-shadow: 0 2px 3px 0 rgb(0 2 4 / 5%), 0 10px 4px -8px rgb(0 2 4 / 2%);
+  border: 1px solid var(--theme-elevation-150);
+  background: var(--theme-input-bg);
+  color: var(--theme-elevation-800);
+}
+.media-card__thumbnail {
+  max-width: 200px;
+  max-height: 100px;
+}
+.media-card__body {
+  padding: 0.9615384615rem 1.4423076923rem;
+  line-height: 1.9230769231rem;
+}
+.media-card__alt {
+  font-weight: 600;
+}
+.media-card:focus-visible .media-card__alt,
+.media-card:hover .media-card__alt {
+  text-decoration: underline;
+}
